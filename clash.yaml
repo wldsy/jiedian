@@ -5,131 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: NONE, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: NONE 2, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: NONE 3, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: NONE 4, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: NONE 5, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: NONE 6, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: NONE 7, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: NONE 8, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25296, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NONE 9, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: NONE 10, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: US_1395 |25.25Mb, server: 20.239.77.179, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: NONE 11, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: NONE 12, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: US_1396 |19.89Mb, server: 159.223.50.45, port: 2017, type: ss, cipher: aes-256-gcm, password: adminss, udp: true}
+  - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 14.29.124.168:25245, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NONE 13, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: NONE 14, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: NONE 15, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: US_1408 |70.97Mb, server: 16us.pronetworklink.net, port: 443, type: trojan, password: a534936c-ee94-44a2-8ed8-33c9e7f6f9b9, sni: 16us.pronetworklink.net, skip-cert-verify: true, udp: true}
-  - {name: RU_1191 |22.41Mb, server: freexiaohouzi.xiaohouzi.club, port: 10070, type: vmess, uuid: 87c81a75-ce6e-3e72-8783-f4caad9bf96b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: freexiaohouzi.xiaohouzi.club}, udp: true}
+  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25296, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _油管：全网最强白嫖 2, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1415 |15.26Mb, server: hkhe1.hmkj9.com, port: 54321, type: trojan, password: 073a9cb4-5ee1-475a-bf81-b9715d7af122, sni: hkhe1.hmkj9.com, skip-cert-verify: true, udp: true}
-  - {name: SG_1322 | 2.02Mb, server: sghe.tjvpn.org, port: 443, type: trojan, password: 253152b0-e018-11ec-b935-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇹🇼TW_1384, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇹🇼TW_1407, server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇹🇼TW_1421, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: SG_1262 |11.65Mb, server: 139.162.47.114, port: 44605, type: trojan, password: 1529baee-f263-48a4-b95b-ac0a49814268, skip-cert-verify: true, udp: true}
+  - {name: SG_1260 |11.51Mb, server: linsg.n.optage.moe, port: 44605, type: trojan, password: 673c8e50-d1c4-4e1f-ae6f-3c694e769006, sni: linsg.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: AU_66 |11.74Mb, server: 140.83.82.32, port: 20194, type: vmess, uuid: 71f6a39d-ee6b-477b-af0a-78a41a6bd637, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NONE, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_281, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1375, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇺🇸US_1420, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+  - {name: BG_139 |58.82Mb, server: fr.n.optage.moe, port: 44612, type: trojan, password: 673c8e50-d1c4-4e1f-ae6f-3c694e769006, sni: fr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: BG_138 |58.94Mb, server: 83.150.217.62, port: 44612, type: trojan, password: 1529baee-f263-48a4-b95b-ac0a49814268, skip-cert-verify: true, udp: true}
+  - {name: US_1925 |21.17Mb, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,33 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -185,98 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,33 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NONE
-      - NONE 2
-      - NONE 3
-      - NONE 4
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - NONE 8
-      - 14.29.124.168:25267
       - 14.29.124.168:25294
-      - 14.29.124.168:25296
-      - _油管：全网最强白嫖
-      - NONE 9
-      - NONE 10
-      - US_1395 |25.25Mb
-      - NONE 11
-      - NONE 12
-      - US_1396 |19.89Mb
+      - 14.29.124.168:25267
       - 14.29.124.168:25245
-      - NONE 13
-      - NONE 14
-      - NONE 15
-      - US_1408 |70.97Mb
-      - RU_1191 |22.41Mb
+      - _油管：全网最强白嫖
+      - 14.29.124.168:25296
       - _油管：全网最强白嫖 2
-      - US_1415 |15.26Mb
-      - SG_1322 | 2.02Mb
+      - Relay_🇺🇸US-🇹🇼TW_1384
+      - Relay_🇺🇸US-🇹🇼TW_1407
+      - Relay_🇺🇸US-🇹🇼TW_1421
+      - SG_1262 |11.65Mb
+      - SG_1260 |11.51Mb
+      - AU_66 |11.74Mb
+      - NONE
+      - Relay_🇩🇪DE-🇬🇧GB_281
+      - Relay_🇺🇸US-🇺🇸US_1375
+      - Pool_🇺🇸US_1420
+      - BG_139 |58.82Mb
+      - BG_138 |58.94Mb
+      - US_1925 |21.17Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
