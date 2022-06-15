@@ -5,215 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: HK_459 |17.60Mb, server: hkt.xn--y8jhmm6gn.com, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hkt.xn--y8jhmm6gn.com, skip-cert-verify: true, udp: true}
-  - {name: JP_498 |36.36Mb, server: 175.41.237.24, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: US_1057 | 2.28Mb, server: 35.78.118.63, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: JP_500 |34.86Mb, server: 54.199.133.35, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25235, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25207, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25252, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25238, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25251, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25271, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1731 |10.68Mb, server: 103.173.255.228, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25231, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ZZ_1732 |10.65Mb, server: 103.173.255.127, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25245, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1078 | 2.23Mb, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: ZZ_1734 |10.60Mb, server: 103.173.255.234, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: US_1062 | 1.86Mb, server: 155.248.162.12, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: NONE, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: NONE 2, server: 5.44.249.43, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
-  - {name: ZZ_1733 |10.53Mb, server: 103.173.255.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: NONE 3, server: 5.44.249.43, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: NONE 4, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: US_1079 |24.52Mb, server: 20.205.63.134, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: NONE 5, server: 5.44.249.43, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
-  - {name: NONE 6, server: 5.44.249.43, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: NONE 7, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25297, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25268, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25210, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: AU_54 | 4.54Mb, server: fadai.gongbaojiding.tk, port: 16065, type: vmess, uuid: 3674478f-411a-4c70-8f75-649c6396848d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_1036 | 6.52Mb, server: hj001.xiba1.xyz, port: 20749, type: trojan, password: 30d830d3-f301-33a1-bc0c-29acbca168ec, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: DE_361 |19.09Mb, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: ZZ_1735 |10.54Mb, server: 103.173.155.72, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25279, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_1035 | 6.92Mb, server: hj001.xiba1.xyz, port: 20754, type: trojan, password: 30d830d3-f301-33a1-bc0c-29acbca168ec, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 14.29.124.168:25217, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25230, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_426 | 4.35Mb, server: 144.24.87.99, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: GB_427 |10.01Mb, server: 144.24.77.154, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: GB_425 |10.03Mb, server: 144.24.90.94, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: US_1059, server: 23.225.77.226, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: US_1067 |35.95Mb, server: 23.225.77.222, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: DE_309 |26.95Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: DE_310 |56.03Mb, server: 172.104.244.36, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
-  - {name: IT_491 |36.77Mb, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: RU_855 | 4.23Mb, server: 46.3.240.10, port: 443, type: vmess, uuid: a9f93c36-6b1f-4f68-c067-aa1cff941f97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: biliroam, ws-headers: {Host: 46.3.240.10}, udp: true}
+  - {name: 14.29.124.168:25287, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: SG_769 |12.23Mb, server: x.alinkrelay.com, port: 13000, type: trojan, password: 9ed22ee0-1876-439c-826d-24e3d4c936ac, sni: x.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: NONE, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 167.88.61.50:7306, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NONE 2, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 167.88.61.50:5004, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 167.88.61.50:2375, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_394 |57.73Mb, server: 51.210.51.88, port: 443, type: ssr, cipher: aes-192-ctr, password: sEscPBiAD9K$&@79, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: NONE 3, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: NONE 4, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: NL_687 |42.49Mb, server: 213.183.59.218, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: NL_688 |44.35Mb, server: 213.183.59.218, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 213.183.59.206:9059, server: 213.183.59.206, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: NL_656 |57.75Mb, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: NL_674 |16.54Mb, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 167.88.61.2:807, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 172.255.248.35:989, server: 172.255.248.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 167.88.61.50:3306, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: NL_681 |38.72Mb, server: 213.183.59.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 213.183.51.172:9025, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 167.88.61.50:7307, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 213.183.51.172:9070, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: NL_675 |18.62Mb, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 213.183.51.172:9020, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 167.88.61.50:8119, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 167.88.61.2:801, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: LT_575 |31.07Mb, server: 213.183.53.221, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -232,54 +152,34 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -290,161 +190,101 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -460,54 +300,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _油管：全网最强白嫖
-      - HK_459 |17.60Mb
-      - JP_498 |36.36Mb
-      - US_1057 | 2.28Mb
-      - JP_500 |34.86Mb
-      - 14.29.124.168:25235
-      - 14.29.124.168:25207
-      - 14.29.124.168:25252
-      - 14.29.124.168:25238
-      - 14.29.124.168:25251
-      - 14.29.124.168:25271
-      - ZZ_1731 |10.68Mb
-      - 14.29.124.168:25231
-      - ZZ_1732 |10.65Mb
-      - 14.29.124.168:25245
-      - 14.29.124.168:25294
-      - US_1078 | 2.23Mb
-      - ZZ_1734 |10.60Mb
-      - US_1062 | 1.86Mb
+      - 14.29.124.168:25287
+      - SG_769 |12.23Mb
       - NONE
+      - 167.88.61.50:7306
       - NONE 2
-      - ZZ_1733 |10.53Mb
+      - 167.88.61.50:5004
+      - 167.88.61.50:2375
+      - FR_394 |57.73Mb
       - NONE 3
       - NONE 4
-      - US_1079 |24.52Mb
-      - NONE 5
-      - NONE 6
-      - NONE 7
-      - 14.29.124.168:25297
-      - 14.29.124.168:25268
-      - 14.29.124.168:25210
-      - AU_54 | 4.54Mb
-      - TW_1036 | 6.52Mb
-      - DE_361 |19.09Mb
-      - ZZ_1735 |10.54Mb
-      - 14.29.124.168:25279
-      - TW_1035 | 6.92Mb
-      - 14.29.124.168:25217
-      - 14.29.124.168:25230
-      - GB_426 | 4.35Mb
-      - GB_427 |10.01Mb
-      - GB_425 |10.03Mb
-      - US_1059
-      - US_1067 |35.95Mb
-      - DE_309 |26.95Mb
-      - DE_310 |56.03Mb
-      - IT_491 |36.77Mb
-      - RU_855 | 4.23Mb
+      - NL_687 |42.49Mb
+      - NL_688 |44.35Mb
+      - 213.183.59.206:9059
+      - NL_656 |57.75Mb
+      - NL_674 |16.54Mb
+      - 167.88.61.2:807
+      - 172.255.248.35:989
+      - 167.88.61.50:3306
+      - 14.29.124.168:25220
+      - NL_681 |38.72Mb
+      - 213.183.51.172:9025
+      - 167.88.61.50:7307
+      - 213.183.51.172:9070
+      - NL_675 |18.62Mb
+      - 213.183.51.172:9020
+      - 167.88.61.50:8119
+      - 167.88.61.2:801
+      - LT_575 |31.07Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
