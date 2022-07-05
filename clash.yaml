@@ -5,135 +5,199 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 14.29.124.168:25287, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: SG_769 |12.23Mb, server: x.alinkrelay.com, port: 13000, type: trojan, password: 9ed22ee0-1876-439c-826d-24e3d4c936ac, sni: x.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: NONE, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 167.88.61.50:7306, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: NONE 2, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 167.88.61.50:5004, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 167.88.61.50:2375, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_394 |57.73Mb, server: 51.210.51.88, port: 443, type: ssr, cipher: aes-192-ctr, password: sEscPBiAD9K$&@79, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: NONE 3, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: NONE 4, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: NL_687 |42.49Mb, server: 213.183.59.218, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: NL_688 |44.35Mb, server: 213.183.59.218, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: 213.183.59.206:9059, server: 213.183.59.206, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: NL_656 |57.75Mb, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: NL_674 |16.54Mb, server: 213.183.51.172, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 167.88.61.2:807, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 172.255.248.35:989, server: 172.255.248.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 167.88.61.50:3306, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 14.29.124.168:25220, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: NL_681 |38.72Mb, server: 213.183.59.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: 213.183.51.172:9025, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 167.88.61.50:7307, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 213.183.51.172:9070, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: NL_675 |18.62Mb, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 213.183.51.172:9020, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 167.88.61.50:8119, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 167.88.61.2:801, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: LT_575 |31.07Mb, server: 213.183.53.221, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: SG_893, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: HU_434, server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: FR_302 |38.77Mb, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: NL_609 |16.65Mb, server: 213.183.59.206, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: US_928 |47.47Mb, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_962 |32.71Mb, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_925 |40.48Mb, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_917 |26.17Mb, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_933 |21.78Mb, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: NL_624, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: NL_589 |58.75Mb, server: 213.183.59.206, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: US_903 |39.45Mb, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1185 |32.07Mb, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: RU_666 |23.10Mb, server: 217.30.10.66, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: RU_684 |37.54Mb, server: 217.30.10.66, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU_689 |50.19Mb, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: RU_662 |52.62Mb, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: US_1032 |20.74Mb, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: RU_650 |55.56Mb, server: 217.30.10.65, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: US_805 |49.22Mb, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_921 |46.60Mb, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: RU_643 |27.88Mb, server: 217.30.10.65, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: US_905 |47.21Mb, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_976 |25.32Mb, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: RU_651 |55.04Mb, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: US_930 |62.42Mb, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: RU_656 |40.61Mb, server: 217.30.10.65, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: RU_669 |50.42Mb, server: 217.30.10.65, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: US_1152 |19.36Mb, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_675 |51.19Mb, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: US_1197 |29.68Mb, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_823 |63.60Mb, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_979 | 9.36Mb, server: 38.121.43.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: RU_674 |52.56Mb, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: RU_691 |53.06Mb, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: RU_657 | 3.94Mb, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: NL_550 |53.32Mb, server: 213.183.59.190, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: RU_680 |31.90Mb, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: US_972 |31.53Mb, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: RU_653 |29.16Mb, server: 217.30.10.66, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: RU_665 |27.62Mb, server: 217.30.10.66, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RU_682 |31.13Mb, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: RU_763, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: US_1484, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,34 +216,50 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -190,101 +270,149 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,34 +428,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14.29.124.168:25287
-      - SG_769 |12.23Mb
-      - NONE
-      - 167.88.61.50:7306
-      - NONE 2
-      - 167.88.61.50:5004
-      - 167.88.61.50:2375
-      - FR_394 |57.73Mb
-      - NONE 3
-      - NONE 4
-      - NL_687 |42.49Mb
-      - NL_688 |44.35Mb
-      - 213.183.59.206:9059
-      - NL_656 |57.75Mb
-      - NL_674 |16.54Mb
-      - 167.88.61.2:807
-      - 172.255.248.35:989
-      - 167.88.61.50:3306
-      - 14.29.124.168:25220
-      - NL_681 |38.72Mb
-      - 213.183.51.172:9025
-      - 167.88.61.50:7307
-      - 213.183.51.172:9070
-      - NL_675 |18.62Mb
-      - 213.183.51.172:9020
-      - 167.88.61.50:8119
-      - 167.88.61.2:801
-      - LT_575 |31.07Mb
+      - SG_893
+      - HU_434
+      - FR_302 |38.77Mb
+      - NL_609 |16.65Mb
+      - US_928 |47.47Mb
+      - US_962 |32.71Mb
+      - US_925 |40.48Mb
+      - US_917 |26.17Mb
+      - US_933 |21.78Mb
+      - NL_624
+      - NL_589 |58.75Mb
+      - US_903 |39.45Mb
+      - US_1185 |32.07Mb
+      - RU_666 |23.10Mb
+      - RU_684 |37.54Mb
+      - RU_689 |50.19Mb
+      - RU_662 |52.62Mb
+      - US_1032 |20.74Mb
+      - RU_650 |55.56Mb
+      - US_805 |49.22Mb
+      - US_921 |46.60Mb
+      - RU_643 |27.88Mb
+      - US_905 |47.21Mb
+      - US_976 |25.32Mb
+      - RU_651 |55.04Mb
+      - US_930 |62.42Mb
+      - RU_656 |40.61Mb
+      - RU_669 |50.42Mb
+      - US_1152 |19.36Mb
+      - RU_675 |51.19Mb
+      - US_1197 |29.68Mb
+      - US_823 |63.60Mb
+      - US_979 | 9.36Mb
+      - RU_674 |52.56Mb
+      - RU_691 |53.06Mb
+      - RU_657 | 3.94Mb
+      - NL_550 |53.32Mb
+      - RU_680 |31.90Mb
+      - US_972 |31.53Mb
+      - RU_653 |29.16Mb
+      - RU_665 |27.62Mb
+      - RU_682 |31.13Mb
+      - RU_763
+      - US_1484
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
