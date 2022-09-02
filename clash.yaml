@@ -1,83 +1,111 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 鹏哥bwg, server: penggebwg.top, port: 443, type: trojan, password: 6ZQs7DRqcO2mSGhh, sni: penggebwg.top, skip-cert-verify: true, udp: true}
+  - {name: 首尔1H1G WS, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.40.117}, udp: true}
   - {name: 德国(yudou66.com 玉豆免费节点), server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: HAX EU4, server: 128.14.162.48, port: 443, type: vmess, uuid: 0e913d5a-c853-4c81-969a-c50cf487e811, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax.yuchen.tk}, udp: true}
-  - {name: 伊朗(yudou66.com 玉豆免费节点), server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 波兰, server: 128.14.162.48, port: 443, type: vmess, uuid: 09c4b93c-bc5c-441b-921d-f71706feace3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /as, ws-headers: {Host: xh.linyuch.eu.org}, udp: true}
   - {name: 印度(欢迎订阅Youtube元亨利贞), server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 147.139.7.71}, udp: true}
-  - {name: _US_美国, server: 38.75.136.34, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 2, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: 42.186.175.8, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}, udp: true}
-  - {name: _US_美国 3, server: 38.91.107.37, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 38.75.136.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 谷歌香港, server: hk.batcloud.bond, port: 443, type: vmess, uuid: 5bb751ad-9e0d-4d30-a9ea-feb22187eea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /QFTfgxVt/, ws-headers: {Host: hk.batcloud.bond}, udp: true}
+  - {name: 鹏哥bwg, server: penggebwg.top, port: 443, type: trojan, password: 6ZQs7DRqcO2mSGhh, sni: penggebwg.top, skip-cert-verify: true, udp: true}
+  - {name: CF分享, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /home, ws-headers: {Host: ca.0112233.xyz}, udp: true}
   - {name: nj1, server: aa.yeuze.buzz, port: 12355, type: vmess, uuid: 583fd5f2-2435-4dc8-cd50-128198e3e18e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wc, ws-headers: {Host: aa.yeuze.buzz}, udp: true}
-  - {name: YouTube梦歌|Netflix_41, server: 36.137.235.221, port: 45505, type: vmess, uuid: 77aed262-2b64-4ca7-9feb-fc8a9a9cd655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HAX EU4, server: 128.14.162.48, port: 443, type: vmess, uuid: 0e913d5a-c853-4c81-969a-c50cf487e811, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax.yuchen.tk}, udp: true}
+  - {name: cn中国台湾(yudou66.com 玉豆免费节点), server: jp-nrt-04-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: b46e5bfe-739c-4026-91fd-686209ce6d85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 谷歌美国, server: us.batcloud.bond, port: 443, type: vmess, uuid: e873b202-96b7-43da-9e1e-7ceeda1c904d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5mjCxhQD/, ws-headers: {Host: us.batcloud.bond}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 38.75.136.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 嘉轩网络_19, server: gyjp3.333003.xyz, port: 16914, type: ss, cipher: chacha20-ietf-poly1305, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, udp: true}
+  - {name: 欧洲(yudou66.com 玉豆免费节点), server: 20.227.152.156, port: 80, type: vmess, uuid: d218e51a-258f-43d2-8ce3-c8872611bf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.227.152.156}, udp: true}
+  - {name: _US_美国, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国(yudou66.com 玉豆免费节点) 2, server: eu.ptuu.tk, port: 443, type: vmess, uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: eu.ptuu.tk}, udp: true}
+  - {name: YouTube梦歌|Netflix_81, server: 172.67.199.34, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: sanggoro6.nextvpn.cc}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 38.75.136.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 2, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 波兰, server: 128.14.162.48, port: 443, type: vmess, uuid: 09c4b93c-bc5c-441b-921d-f71706feace3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /as, ws-headers: {Host: xh.linyuch.eu.org}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,83 +124,113 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 谷歌香港
+      - cn中国台湾(yudou66.com 玉豆免费节点)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +246,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 鹏哥bwg
+      - 首尔1H1G WS
       - 德国(yudou66.com 玉豆免费节点)
-      - HAX EU4
-      - 伊朗(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点)
-      - 波兰
       - 印度(欢迎订阅Youtube元亨利贞)
-      - _US_美国
-      - _US_美国 2
-      - 新加坡(youtube阿伟科技)
-      - _US_美国 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 谷歌香港
+      - 鹏哥bwg
+      - CF分享
       - nj1
-      - YouTube梦歌|Netflix_41
+      - 美国(yudou66.com 玉豆免费节点)
+      - HAX EU4
+      - cn中国台湾(yudou66.com 玉豆免费节点)
+      - 谷歌美国
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 嘉轩网络_19
+      - 欧洲(yudou66.com 玉豆免费节点)
+      - _US_美国
+      - 德国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_81
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国 2
+      - 波兰
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
