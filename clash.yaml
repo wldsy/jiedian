@@ -5,71 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 首尔1H1G WS, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.40.117}, udp: true}
-  - {name: 鹏哥bwg, server: penggebwg.top, port: 443, type: trojan, password: 6ZQs7DRqcO2mSGhh, sni: penggebwg.top, skip-cert-verify: true, udp: true}
-  - {name: 谷歌香港, server: hk.batcloud.bond, port: 443, type: vmess, uuid: 5bb751ad-9e0d-4d30-a9ea-feb22187eea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /QFTfgxVt/, ws-headers: {Host: hk.batcloud.bond}, udp: true}
-  - {name: 美国(youtube阿伟科技), server: 169.197.143.232, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: 169.197.143.232, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: HAX EU4, server: 128.14.162.48, port: 443, type: vmess, uuid: 0e913d5a-c853-4c81-969a-c50cf487e811, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax.yuchen.tk}, udp: true}
-  - {name: nj1, server: aa.yeuze.buzz, port: 12355, type: vmess, uuid: 583fd5f2-2435-4dc8-cd50-128198e3e18e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wc, ws-headers: {Host: aa.yeuze.buzz}, udp: true}
-  - {name: 谷歌美国, server: us.batcloud.bond, port: 443, type: vmess, uuid: e873b202-96b7-43da-9e1e-7ceeda1c904d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5mjCxhQD/, ws-headers: {Host: us.batcloud.bond}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: 38.91.107.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 38.75.136.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 印度(欢迎订阅Youtube元亨利贞), server: 147.139.7.71, port: 888, type: vmess, uuid: 08d6729d-830e-4341-df76-62d3d12e75e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 147.139.7.71}, udp: true}
+  - {name: US 美国(yudou66.com 玉豆免费节点), server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_76, server: 119.36.161.40, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.12321229.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞), server: 172.64.154.201, port: 443, type: vmess, uuid: 28dad69c-c9d6-47c5-ad05-c66afb87ccbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash3.trump2023.org}, udp: true}
+  - {name: US 美国(yudou66.com 玉豆免费节点) 2, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_48, server: 119.36.161.40, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.55321621.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix|60, server: 119.36.161.40, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.99136853.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_78, server: 119.36.161.40, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.45054102.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix|32, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.69961573.xyz}, udp: true}
+  - {name: US 美国(yudou66.com 玉豆免费节点) 3, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞) 2, server: 172.64.153.102, port: 443, type: vmess, uuid: bed3d876-2d26-4d4d-b789-3063438ee774, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash2.trump2023.us}, udp: true}
+  - {name: US 美国(yudou66.com 玉豆免费节点) 4, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix|48, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.42768395.xyz}, udp: true}
+  - {name: YouTube梦歌|Netflix_72, server: 119.36.161.40, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.89095735.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,76 +92,79 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 谷歌香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,18 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 首尔1H1G WS
-      - 鹏哥bwg
-      - 谷歌香港
-      - 美国(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 2
-      - HAX EU4
-      - nj1
-      - 谷歌美国
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(youtube阿伟科技) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 印度(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|Netflix_76
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - US 美国(yudou66.com 玉豆免费节点) 2
+      - YouTube梦歌|Netflix_48
+      - YouTube梦歌|Netflix|60
+      - YouTube梦歌|Netflix_78
+      - YouTube梦歌|Netflix|32
+      - US 美国(yudou66.com 玉豆免费节点) 3
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - US 美国(yudou66.com 玉豆免费节点) 4
+      - YouTube梦歌|Netflix|48
+      - YouTube梦歌|Netflix_72
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
